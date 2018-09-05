@@ -213,7 +213,9 @@ class MergeRequest extends PureComponent {
                 </div>
               </SplittedSeciton>
 
+              <ReactInterval timeout={10000} enabled={approvals_left > 0} callback={() => this.fecthApprovals()} />
               <ReactInterval timeout={10000} enabled={checkForNewPipeline} callback={() => this.fetchPipeline()} />
+
               {lastPipeline && (
                 <Pipeline>
                   <Status success={readyToMerge} running={lastPipeline && lastPipeline.status === 'running'} />
