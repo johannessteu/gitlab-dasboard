@@ -1,3 +1,5 @@
+[![Docker Repository on Quay](https://quay.io/repository/johannessteu/gitlab-dashboard/status 'Docker Repository on Quay')](https://quay.io/repository/johannessteu/gitlab-dashboard)
+
 This project is a small (hacky) react js app. It can be used to as a simple gitlab dashboard to track open merge requests. It is build with https://github.com/jdalrymple/node-gitlab
 
 ## Start the dashboard
