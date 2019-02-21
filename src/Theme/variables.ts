@@ -1,3 +1,13 @@
+export interface VariablesInterface {
+  padding: string;
+  paddingSmall: string;
+  fontSize: string;
+  fontSizeSmall: string;
+  fontSizeBig: string;
+  fontFamily: string;
+  borderRadius: string;
+}
+
 const variables = {
   padding: '20px',
   paddingSmall: '15px',
